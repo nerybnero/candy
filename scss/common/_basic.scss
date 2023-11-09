@@ -1,0 +1,50 @@
+body{
+    font-family: MontserratAlternates;
+}
+
+.conteiner{
+    margin: 0 auto;
+
+    @media(min-width: 360px){
+        max-width: 320px;
+    }
+    @media(min-width: 800px){
+        max-width: 1170px;
+    }
+}
+.hero{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    background-image: url('/candy/img/herobg360.jpg');
+    min-height: 580px;
+    background-size: 100%;
+    background-position: center;
+    margin-top: -3px;
+        @media(min-width: 800px){
+        background-image: url('/candy/img/herobg1920.jpg');
+        min-height: 456px;
+        background-position: top;
+    }
+}
+
+.hero::after{
+    background-image: url('/candy/img/cake360.svg');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 52px;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    @media(min-width: 800px){
+        display: none;
+    }
+}
+

@@ -1,0 +1,37 @@
+.hero {
+
+    &__body {
+    }
+
+    &__title {
+        font-family: Comfortaa;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 120%;
+        margin-top: 40px;
+        margin-bottom: 16px;
+        @media(min-width: 1300px){
+            font-size: 50px;
+            font-weight: 700;
+            max-width: 700px;
+            margin-top: 111px;
+            margin-bottom: 7px;
+            }
+    }
+
+    &__list {
+    }
+
+    &__list-item {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-left: -5px;
+        @media(min-width: 1300px){
+            font-size: 25px;
+            font-weight: 500;
+            margin-left: 0;
+            }
+    }
+}
+

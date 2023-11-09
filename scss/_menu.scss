@@ -1,0 +1,114 @@
+.menu {
+    position: relative;
+
+    &__burger{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 9px;
+        border-radius: 7px;
+        border: 1px solid #FF406E;
+        @media(min-width: 1920px){
+            padding: 10px 16px;
+            }
+    }
+
+    &.menu-open .menu__burger{
+        @media(min-width: 1920px){
+        background-color: #F42758;
+        height: 70px;
+        width: 113px;
+        border-radius: 0;
+    }
+    }
+
+    &.menu-open .menu__desc{
+        color: white;
+    }
+
+    &__modal {
+        position: absolute;
+        background: white;
+        top: -1000px;
+        left: -20;
+        min-height: 485px;
+        max-width: 320px;
+        z-index: 50;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        @media (min-width: 1200px){
+            min-height: 515px;
+            left: 0;
+        }
+    }
+
+    &.menu-open &__modal{
+        top: 69px;
+        left: -20px;
+        @media (min-width: 1200px){
+            left: 0;
+            top: 67px;
+        }
+    }
+
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__list-item-hidden{
+        display: block;
+        border-top: 1px solid #E1B3F6;
+        @media(min-width: 1200px){
+            display: none;
+            }
+    }
+
+    &__list-item{
+
+    }
+    &__list-item.item-open &__list-item-link::before{
+        transform: rotate(180deg);
+    }
+
+    &__list-item-link{
+        border-bottom: 1px solid #E1B3F6;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 18px;
+        display: block;
+    }
+
+    &__list-item-link:hover{
+        background-color:#F2D4FF;
+        color: #F42758;
+    }
+
+    &__list-item-link::before{
+        background-image: url("/candy/img/down.svg");
+        background-repeat: no-repeat;
+        content: "";
+        height: 24px;
+        width: 24px;
+        position: absolute;
+        margin-left: 240px;
+        transition: all .3s;
+    }
+
+    &__desc{
+        font-size: 18px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        display: block;
+        @media(min-width: 360px){
+        display: none;
+        }
+        @media(min-width: 800px){
+        display: block;
+        }
+    }
+
+}

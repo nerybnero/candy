@@ -1,0 +1,20 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#E5E5E5"/>
+<g id="&#208;&#147;&#208;&#187;&#208;&#176;&#208;&#178;&#208;&#189;&#208;&#176;&#209;&#143;" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="4913" transform="translate(-764 -25)" fill="white"/>
+<g id="header">
+<rect id="Rectangle 2" x="-764" y="-25" width="1920" height="70" fill="white"/>
+<g id="Component 8">
+<g id="Search">
+<path id="Vector" d="M19 19L13.7899 13.7929M15.9806 8.49618C15.9806 10.4843 15.1915 12.391 13.7868 13.7968C12.3821 15.2026 10.4769 15.9924 8.49031 15.9924C6.50376 15.9924 4.59857 15.2026 3.19386 13.7968C1.78916 12.391 1 10.4843 1 8.49618C1 6.50807 1.78916 4.60139 3.19386 3.19558C4.59857 1.78977 6.50376 1 8.49031 1C10.4769 1 12.3821 1.78977 13.7868 3.19558C15.1915 4.60139 15.9806 6.50807 15.9806 8.49618Z" stroke="#F42758" stroke-width="2" stroke-linecap="round"/>
+<rect x="-227.5" y="-8.5" width="266" height="37" rx="4.5" stroke="#FF406E" stroke-opacity="0.5"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="4913" fill="white" transform="translate(-764 -25)"/>
+</clipPath>
+</defs>
+</svg>
